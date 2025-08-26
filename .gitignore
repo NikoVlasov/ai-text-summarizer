@@ -1,0 +1,44 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+*.env
+
+# Logs
+*.log
+
+# Hugging Face / caches / models (не коммитим большие веса)
+.cache/
+.cache/huggingface/
+models/
+hf_models/
+*.bin
+pytorch_model.bin
+
+# Streamlit
+.streamlit/
+
+# Other
+*.sqlite3
